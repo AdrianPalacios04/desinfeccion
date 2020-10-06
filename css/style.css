@@ -168,7 +168,7 @@ button:focus{
 }
 
 .top-navbar .navbar{
-	padding: 15px 0px;
+    
 	position: fixed;
 	width: 100%;
 	border-radius: 0px 0px 100px 100px;
@@ -177,7 +177,10 @@ button:focus{
 	transform: translate3d(0, 0, 0);
 	-webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
 	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
-	z-index: 100;
+    z-index: 100;
+}
+.top-navbar .navbar-brand img{
+    width: 80px;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-link{
@@ -601,7 +604,7 @@ button:focus{
 	line-height: 60px;
 	text-align: center;
 	background: #fff;
-	color: #999999;
+	color: #196730;
 	font-size: 30px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
